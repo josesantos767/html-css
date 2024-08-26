@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../exoo4/imagens/icone.png" type="image/x-icon">
+
+    <title>Links em html5</title>
+</head>
+<body>
+    <h1>Images dinamicas</h1>
+    <p>Tente abrir este site em varios dispsitivos diferentes,
+        ou simplesmente ou diminua o tamanho do seu navegador</p>
+
+        <picture>
+            <source media="(max-width: 600px)" srcset="_imagens/foto-p.png" type="image/png">
+            <source media="(max-width: 850px)" srcset="_imagens/foto-m.png" type="image/png">
+            <img src="_imagens/foto-g.png" alt="Imagem flexivel">
+        </picture>
+        <h1>Reproduzindo audio</h1>
+
+        <p>Vamos reprodusir audio em html5</p>
+        
+        <audio preload="metadata" autoplay controls>
+            <source src="_midia/video-01.mp4" type="audio/mpeg">
+            <source src="_midia/video-02.mp3" type="audio/mp3">
+            <source src="_midia/video-03.mp3" type="audio/mp3">
+            <source src="_midia/video-1.mp4" type="audio/mp4">
+            <P>Infelismete seu navegadior não reprodus audio
+            <a href="_midia/video-02.mp3">Clik aqui para baixar o arquivo</a></p>
+        </audio>
+        <!--mp2 ogg wav-->
+</body>
+</html>

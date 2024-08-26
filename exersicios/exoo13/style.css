@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+body {
+    width: 800px;
+    background-color: aqua;
+    text-align: center;
+    text-decoration: overline;
+    background-position: right;
+    display: block;
+}
+.container {
+   rotate: inherit;
+}    
+
