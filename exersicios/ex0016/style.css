@@ -13,6 +13,9 @@ body {
 body p {
     color: rgb(16, 16, 73);
 }
+body, main {
+    color: blue;
+}
 h1, h2 {
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
