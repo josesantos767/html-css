@@ -14,7 +14,8 @@ body p {
     color: rgb(16, 16, 73);
 }
 body, main {
-    color: blue;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px #5f3939;
 }
 h1, h2 {
     text-align: center;
