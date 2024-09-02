@@ -26,3 +26,18 @@ body {
 h1 {
     font-family: 'Courier New', Courier, monospace;
 }
+h1.li {
+    text-align: center;
+}
+h2.testo {
+    text-align: right;
+}
+main {
+    width: 500px;
+    font: normal 16px Arial, Verdana, serif;
+    
+}
+p {
+    text-align: justify;
+    text-indent: 25px;
+}
