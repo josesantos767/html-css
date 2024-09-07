@@ -9,8 +9,9 @@ main {
     width: 700px;
     border: 2px solid black;
     text-align: center;
-    position: relative;
+    inline-size: auto;
     border-radius: 10px 10px 10px; 
+    margin: 10px auto 10px auto;
 }
 h1 {
     color: chartreuse;
