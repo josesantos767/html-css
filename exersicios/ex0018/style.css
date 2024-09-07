@@ -7,14 +7,10 @@ body {
 }
 main {
     width: 700px;
-    border: 1px 1px solid black;
-    text-align: justify;
+    border: 2px solid black;
+    text-align: center;
     position: relative;
-    border-radius: 2px, 2px, inherit;
-    
-    
-    
-    
+    border-radius: 10px 10px 10px; 
 }
 h1 {
     color: chartreuse;
@@ -35,17 +31,14 @@ h2 {
 .basico {
     color: chartreuse;
     text-align: center;
-
 }
 .intermediario {
     color: gold;
     text-align: center;
-
 }
 .avancado {
     color: brown;
     text-align: center;
-
 }
 .destaque {
     background-color: rgba(175, 157, 112, 0.474);
