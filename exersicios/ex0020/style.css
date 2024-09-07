@@ -6,21 +6,32 @@ body {
     margin: 0;
 }
 header {
-    background-color: aliceblue;
+    color: aliceblue;
     padding: 10px;
     margin: 10px;
 }
+header > h1 {
+    text-align: center;
+    background-color: #a77d7d;
+    color: brown;
+    margin: 5px 250px 5px 250px;
+}
 nav {
-    background-color: aliceblue;
-    padding: 3px;
+    background-color: rgb(189, 192, 195);
+    padding: 5px;
+    text-align: center;
 }
 nav > a {
     text-decoration: none;
-    color: blue;
+    color: rgb(247, 247, 249);
     font-weight: bold;
+    margin-right: 30px;
 
 }
-
+nav > a:hover {
+    text-decoration: underline;
+    
+}
 main {
     background-color: rgb(230, 226, 219);
     padding: 10px;
