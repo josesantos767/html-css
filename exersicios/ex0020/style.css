@@ -17,13 +17,19 @@ header > h1 {
     margin: 5px 250px 5px 250px;
 }
 #assuntos {
+    height: 100px;
+    width: 200px;
     background-color: aquamarine;
     color: #8d3131;
     text-align: center;
-    margin: 0px 10px 0px 620px;
+    margin: 0px 10px 0px 590px;
+    box-shadow: 1px 2px 2px black;
+}
+#assuntos h1 {
+    color: blue;
 }
 p {
-    box-shadow: 1px 1px 2px black;
+   color: #e26868; 
 }
 h2 {
     color: #8d3131;
@@ -47,6 +53,7 @@ nav > a {
     color: rgb(247, 247, 249);
     font-weight: bold;
     margin-right: 30px;
+    color: deepskyblue;
 
 }
 nav > a:hover {
