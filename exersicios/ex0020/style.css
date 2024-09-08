@@ -64,6 +64,8 @@ main {
     background-color: rgb(230, 226, 219);
     padding: 10px;
     margin: 10px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.518);
 }
 article {
     background-color: rgb(236, 226, 226);
